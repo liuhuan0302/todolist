@@ -1,0 +1,1 @@
+const { default: TemperatureInput } = require("../temperature");

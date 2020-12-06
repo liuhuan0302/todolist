@@ -1,4 +1,3 @@
-import './App.css';
 import Calculator from './pages/calculator';
 import Count from '../src/pages/count/count';
 import Form from '../src/pages/hook/hook';
@@ -11,34 +10,18 @@ import TextInputWithFocusButton from '../src/pages/hook/useRef';
 import MeasureExample from '../src/pages/hook/measureExample';
 import FancyInput from '../src/pages/hook/useImperativeHandle';
 import Main from '../src/pages/component/main';
-function App() {
-  return (
-    <div className="App">
-      <Calculator />
-      <br />
-      <Count />
-      <br />
-      <Form />
-      <br />
-      <ThemeButton />
-      <br/>
-      <Context />
-      <br/>
-      <ToDoList />
-      <br />
-      <ReactRedux />
-      <br />
-      <UseReducer />
-      <br />
-      <TextInputWithFocusButton />
-      <br />
-      < MeasureExample />
-      <br />
-      <FancyInput />
-      <br />
-      <Main />
-    </div>
-  );
-}
 
-export default App;
+export {
+  Calculator,
+  Count,
+  Form,
+  ThemeButton,
+  Context,
+  ToDoList,
+  ReactRedux,
+  UseReducer,
+  TextInputWithFocusButton,
+  MeasureExample,
+  FancyInput,
+  Main
+}
